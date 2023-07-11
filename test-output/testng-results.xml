@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-11T11:26:19 CDT" name="Suite" finished-at="2023-07-11T11:27:43 CDT" duration-ms="83835">
+    <groups>
+    </groups>
+    <test started-at="2023-07-11T11:26:19 CDT" name="Test" finished-at="2023-07-11T11:27:43 CDT" duration-ms="83835">
+      <class name="baseclass.Testbase">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:26:19 CDT" name="setExtent" finished-at="2023-07-11T11:26:24 CDT" duration-ms="4588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:26:24 CDT" name="initialization" finished-at="2023-07-11T11:26:52 CDT" duration-ms="27549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="googletitleTest()[pri:1, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:26:52 CDT" name="googletitleTest" finished-at="2023-07-11T11:26:56 CDT" duration-ms="3912" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Googe] but found [Google]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Googe] but found [Google]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at baseclass.Testbase.googletitleTest(Testbase.java:135)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googletitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:26:56 CDT" name="tearDown" finished-at="2023-07-11T11:27:10 CDT" duration-ms="14421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=googletitleTest status=FAILURE method=Testbase.googletitleTest()[pri:1, instance:baseclass.Testbase@76f7d241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:27:10 CDT" name="initialization" finished-at="2023-07-11T11:27:23 CDT" duration-ms="13396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="facebookTitleTest()[pri:2, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:27:23 CDT" name="facebookTitleTest" finished-at="2023-07-11T11:27:40 CDT" duration-ms="16341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:27:40 CDT" name="tearDown" finished-at="2023-07-11T11:27:41 CDT" duration-ms="1364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=facebookTitleTest status=SUCCESS method=Testbase.facebookTitleTest()[pri:2, instance:baseclass.Testbase@76f7d241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:27:41 CDT" name="endReport" finished-at="2023-07-11T11:27:43 CDT" duration-ms="1968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- baseclass.Testbase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
