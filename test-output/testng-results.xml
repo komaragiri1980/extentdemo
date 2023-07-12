@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-11T11:26:19 CDT" name="Suite" finished-at="2023-07-11T11:27:43 CDT" duration-ms="83835">
+  <suite started-at="2023-07-12T07:45:05 CDT" name="Suite" finished-at="2023-07-12T07:49:23 CDT" duration-ms="258428">
     <groups>
     </groups>
-    <test started-at="2023-07-11T11:26:19 CDT" name="Test" finished-at="2023-07-11T11:27:43 CDT" duration-ms="83835">
+    <test started-at="2023-07-12T07:45:05 CDT" name="Test" finished-at="2023-07-12T07:49:23 CDT" duration-ms="258428">
       <class name="baseclass.Testbase">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:26:19 CDT" name="setExtent" finished-at="2023-07-11T11:26:24 CDT" duration-ms="4588" status="PASS">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-12T07:45:05 CDT" name="setExtent" finished-at="2023-07-12T07:45:13 CDT" duration-ms="8446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:26:24 CDT" name="initialization" finished-at="2023-07-11T11:26:52 CDT" duration-ms="27549" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-12T07:45:14 CDT" name="initialization" finished-at="2023-07-12T07:46:00 CDT" duration-ms="46712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="googletitleTest()[pri:1, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:26:52 CDT" name="googletitleTest" finished-at="2023-07-11T11:26:56 CDT" duration-ms="3912" status="FAIL">
+        <test-method signature="googletitleTest()[pri:1, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-12T07:46:00 CDT" name="googletitleTest" finished-at="2023-07-12T07:46:09 CDT" duration-ms="9141" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Googe] but found [Google]]]>
@@ -63,7 +63,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googletitleTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:26:56 CDT" name="tearDown" finished-at="2023-07-11T11:27:10 CDT" duration-ms="14421" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-12T07:46:09 CDT" name="tearDown" finished-at="2023-07-12T07:48:36 CDT" duration-ms="146643" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,15 +74,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:27:10 CDT" name="initialization" finished-at="2023-07-11T11:27:23 CDT" duration-ms="13396" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-12T07:48:36 CDT" name="initialization" finished-at="2023-07-12T07:48:50 CDT" duration-ms="13587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="facebookTitleTest()[pri:2, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:27:23 CDT" name="facebookTitleTest" finished-at="2023-07-11T11:27:40 CDT" duration-ms="16341" status="PASS">
+        <test-method signature="facebookTitleTest()[pri:2, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-12T07:48:50 CDT" name="facebookTitleTest" finished-at="2023-07-12T07:49:16 CDT" duration-ms="26323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookTitleTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:27:40 CDT" name="tearDown" finished-at="2023-07-11T11:27:41 CDT" duration-ms="1364" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-12T07:49:16 CDT" name="tearDown" finished-at="2023-07-12T07:49:18 CDT" duration-ms="1633" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-11T11:27:41 CDT" name="endReport" finished-at="2023-07-11T11:27:43 CDT" duration-ms="1968" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:baseclass.Testbase@76f7d241]" started-at="2023-07-12T07:49:18 CDT" name="endReport" finished-at="2023-07-12T07:49:23 CDT" duration-ms="5727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
