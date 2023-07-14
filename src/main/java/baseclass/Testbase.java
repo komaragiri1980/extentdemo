@@ -3,6 +3,7 @@ package baseclass;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
@@ -119,7 +120,7 @@ public class Testbase {
 	  File source = ts.getScreenshotAs(OutputType.FILE);
 	  
 	  // after execution, you could see a folder "FailedTestsScreenshots" under source folder
-	  String destination = System.getProperty("user.dir") + "/Screenshots/" + screenshotName + dateName + ".png";
+	  String destination = Paths.get("").toAbsolutePath() + "/Screenshots/" + screenshotName + dateName + ".png";
 	  File finalDestination = new File(destination);
 	  FileUtils.copyFile(source, finalDestination);
 	  return destination;
